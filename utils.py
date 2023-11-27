@@ -1,12 +1,11 @@
 class Utils:
-  ratio = 9 / 5
+    ratio = 9 / 5
 
-  @staticmethod
-  def convert(c):
-    '''
-      Converts the value
-      Parameters:
-        c - the value to convert
-        scientific: whether to convert to scientifi measurements
-    '''
-    return (c * Utils.ratio) + 32; # Convert
+    @staticmethod
+    def conversion(c):
+        return (c * Utils.ratio) ; 
+   
+    #Conversion converts the value c:  
+        #c - the value to convert
+
+
