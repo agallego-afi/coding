@@ -1,12 +1,7 @@
-class Utils:
-  ratio = 9 / 5
+class Temperature_tools:
+  convertion_ratio_c_to_f = 9 / 5
 
   @staticmethod
-  def convert(c):
-    '''
-      Converts the value
-      Parameters:
-        c - the value to convert
-        scientific: whether to convert to scientifi measurements
-    '''
-    return (c * Utils.ratio) + 32; # Convert
+  def celsius_to_fahrenheit(celsius):
+    return (celsius * Temperature_tools.convertion_ratio_c_to_f) + 32;  
+
